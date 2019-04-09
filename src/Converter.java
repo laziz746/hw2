@@ -4,6 +4,7 @@ public class Converter {
             throws MyArraySizeException, MyArrayDataException {
 
 
+
         int sum = 0;
 
         if (4 != strArray.length) throw new MyArraySizeException();
